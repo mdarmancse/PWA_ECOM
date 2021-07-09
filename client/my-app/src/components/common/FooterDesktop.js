@@ -10,7 +10,7 @@ class FooterDesktop extends Component {
                         <Row className="px-0 my-5">
                             <Col className="p-2" lg={3} md={3} sm={6} xs={12}>
                                 <h5 className="footer-menu-title">ABOUT COMPANY</h5>
-                                <p>BigExpress is considered to be the ‘game-changer’ in Bangladesh’s  industry. Carefully-chosen raw material, environment-friendly business practice and customer-centric approach is what made BigExpress a beloved brand at home and abroad.</p>
+                                <p>Arman Express is considered to be the ‘game-changer’ in Bangladesh’s  industry. Carefully-chosen raw material, environment-friendly business practice and customer-centric approach is what made BigExpress a beloved brand at home and abroad.</p>
                                 <h5 className="footer-menu-title">SOCIAL LINK</h5>
                                 <a href=""><i className="fab m-1 h4 fa-facebook"></i></a>
                                 <a href=""><i className="fab m-1 h4 fa-instagram"></i></a>
@@ -22,7 +22,7 @@ class FooterDesktop extends Component {
                                 <Link to="/contact" className="footer-link">Contact Us</Link><br/>
 
                                 <h5 className="footer-menu-title mt-3">OFFICE ADDRESS</h5>
-                                <p>Shekhertek 8,Mohammadpur, Adabor, Dhaka-1207, 01774688159 (Help-Line), Engr.Rabbil@yahoo.com</p>
+                                <p>Hathazari,Chittagong, 01787281564 (Help-Line), amd55077@gmail.com</p>
                             </Col>
                             <Col className="p-2" lg={3} md={3} sm={6} xs={12}>
                                 <h5 className="footer-menu-title">MORE INFO</h5>

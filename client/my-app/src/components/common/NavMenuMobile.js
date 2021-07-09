@@ -3,6 +3,7 @@ import {Button, Col, Container, Navbar, Row} from "react-bootstrap";
 import MegaMenu from "../home/MegaMenu";
 import MegaMenuMobile from "../home/MegaMenuMobile";
 import {Link} from "react-router-dom";
+import Logo from "../../assets/images/logo/arman_express.png"
 
 class NavMenuMobile extends Component {
 
@@ -50,7 +51,7 @@ class NavMenuMobile extends Component {
                 <Link className="btn"><i className="fa h4 fa-search"></i>  </Link>
             </Navbar>
                 <div  className={this.state.SideNavState}>
-                    <Link to="/" className="btn"> <img className="nav-logo" src="http://demo.ecom.rabbil.com/static/media/BigExpress.432afd37.png"/></Link>
+                    <Link to="/" className="btn"> <img className="nav-logo" src={Logo}/></Link>
                     <hr/>
                     <MegaMenuMobile/>
                 </div>

@@ -1,36 +1,30 @@
-import React, {Component} from 'react';
-import {Button} from "react-bootstrap";
-import FeaturedProducts from "../components/home/FeaturedProducts";
-import Categories from "../components/home/Categories";
-import Collection from "../components/home/Collection";
-import NewArrival from "../components/home/NewArrival";
-import HomeTop from "../components/home/HomeTop";
+import React, {Component, Fragment} from 'react';
 import NavMenuDesktop from "../components/common/NavMenuDesktop";
 import NavMenuMobile from "../components/common/NavMenuMobile";
-import HomeTopMobile from "../components/home/HomeTopMobile";
+import Policy from "../components/Others/Policy";
 import FooterDesktop from "../components/common/FooterDesktop";
 import FooterMobile from "../components/common/FooterMobile";
+import About from "../components/Others/About";
 
-class HomePage extends Component {
+class AboutPage extends Component {
+
+
+
+    componentDidMount() {
+        window.scroll(0,0)
+    }
+
     render() {
         return (
-            <>
+            <Fragment>
                 <div className="Desktop">
                     <NavMenuDesktop/>
-                    <HomeTop/>
                 </div>
                 <div className="Mobile">
                     <NavMenuMobile/>
-                    <HomeTopMobile/>
                 </div>
 
-
-
-                <FeaturedProducts/>
-                <NewArrival/>
-                <Collection/>
-                <Categories/>
-
+                <About/>
 
                 <div className="Desktop">
                     <FooterDesktop/>
@@ -39,10 +33,9 @@ class HomePage extends Component {
                     <FooterMobile/>
                 </div>
 
-
-            </>
+            </Fragment>
         );
     }
 }
 
-export default HomePage;
+export default AboutPage;

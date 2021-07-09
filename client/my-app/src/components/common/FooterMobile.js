@@ -10,7 +10,7 @@ class FooterMobile extends Component {
                         <Row className="px-0 my-5">
                            <Col sm={6} xm={6}>
                                <h5 className="footer-menu-title mt-3">OFFICE ADDRESS</h5>
-                               <p>Shekhertek 8,Mohammadpur, Adabor, Dhaka-1207, 01774688159 (Help-Line), Engr.Rabbil@yahoo.com</p>
+                               <p>Hathazari,Chittagong, 01787281564 (Help-Line), amd55077@gmail.com</p>
                            </Col>
                             <Col sm={6} xm={6}>
                                 <h5 className="footer-menu-title">SOCIAL LINK</h5>
