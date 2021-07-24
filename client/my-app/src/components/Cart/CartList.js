@@ -46,7 +46,7 @@ class CartList extends Component {
                             <Card className='cart-card w-100 image-box'>
                                 <img className='w-100' src='Images/p1.jpg'/>
                                 <Card.Body>
-                                    <h5 className='Product-Name m-0 p-0'>ASUS MT10</h5>
+                                    <h5 className='Product-Name m-0 p-0'>ASUS MT10 -123</h5>
                                     <p className='Product-Name m-0 p-0'>Total Price: 500TK</p>
 
 
